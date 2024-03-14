@@ -1,0 +1,21 @@
+---
+title: "webr_exercises"
+format: html
+engine: knitr
+resources:
+  - webr-serviceworker.js
+  - webr-worker.js
+filters: 
+  - webr
+webr:
+  packages: ['ggplot2', 'dplyr']
+
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{webr-r}
+plot(pressure)
+```
